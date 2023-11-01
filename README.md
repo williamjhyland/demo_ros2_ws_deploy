@@ -1,2 +1,2 @@
-# demo_ros2_ws_deploy
-A ROS2 work space to be deployed to a ROS2 Humble environment.
+# ROS2 WS
+This repo contains generic ROS2 Humble tutorials. This repo is intended to be used to demonstrate a code base that needs to be deployed through Viam Code Management Modules.

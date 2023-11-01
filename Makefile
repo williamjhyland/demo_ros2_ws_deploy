@@ -10,5 +10,6 @@ setup_ws:
 	cp -r * $(INSTALL_DIR)
 	# source /opt/ros/humble/local_setup.bash
 	cd $(INSTALL_DIR); colcon build
+	chown -R $(USER):$(USER) $(INSTALL_DIR)
 
 install_ros_ws: setup_ws set_version
